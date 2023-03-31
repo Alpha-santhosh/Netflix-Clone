@@ -14,13 +14,21 @@ h2 {
 }
 
 .row_posters_img {
-  max-height: 250px;
+  max-height: 150px;
   object-fit: contain;
   margin-right: 15px;
   transition: transform 0.4s;
 }
 
+.row_poster_img_isLarge {
+  max-height: 250px;
+}
+
 .row_posters_img:hover {
   transform: scale(1.08);
   opacity: 1;
+}
+
+.row_poster::-webkit-scrollbar {
+  display: none;
 }

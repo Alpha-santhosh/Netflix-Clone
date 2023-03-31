@@ -8,7 +8,7 @@ function Banner() {
         const fetchPopulatMovies = async () => {
             const respones = await fetch("https://api.themoviedb.org/3/trending/all/week?api_key=a958eb475e408eb09ba601ab514b527a&language=en-US");
             const data = await respones.json();
-            setbannerMovie(data.results[Math.floor(Math.random() * data.results.length - 1)])
+            setbannerMovie(data?.results[Math.floor(Math.random() * data.results.length - 1)])
         }
         fetchPopulatMovies();
     }, [])

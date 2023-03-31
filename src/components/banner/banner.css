@@ -1,7 +1,7 @@
 .banner {
-  height: 480px;
+  height: 75vh;
   object-fit: contain;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -16,22 +16,29 @@
 }
 
 .b_movie_title {
-  font-size: 32px;
+  font-size: 36px;
   color: white;
   font-weight: bold;
 }
 
 .banner_btns {
-  gap: 15px;
+  gap: 40px;
   display: flex;
 }
 
 .banner_btn {
-  padding: 5px 10px;
+  padding: 6px 20px;
+  border: 1px solid black;
+  background-color: rgba(61, 61, 61, 0.654);
+  color: white;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  font-weight: 700;
 }
 
 .banner_overview {
   color: white;
+  font-size: 15px;
 }
 
 .linear_gradeint {
@@ -41,7 +48,8 @@
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.2390567050890976) 0%,
-    rgba(0, 0, 0, 0.2390567050890976) 100%
+    rgba(0, 0, 0, 0.23) 0%,
+    rgba(0, 0, 0, 0.726) 85%,
+    rgb(0, 0, 0) 100%
   );
 }

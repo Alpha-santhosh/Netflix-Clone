@@ -1,35 +1,21 @@
-import { useEffect, useState } from "react";
 import "./App.css";
 import Banner from "./components/banner/Banner";
 import Header from "./components/header/Header";
 import Row from "./components/row/Row";
 
 function App() {
-  const [geners, setgeners] = useState([]);
-
-  useEffect(() => {
-    async function getGener() {
-      const respones = await fetch(
-        "https://api.themoviedb.org/3/genre/movie/list?api_key=a958eb475e408eb09ba601ab514b527a&language=en-US"
-      );
-      const data = await respones.json();
-      setgeners(data.genres);
-    }
-    getGener();
-  }, []);
-
   return (
     <div className="app">
       <Header />
       <Banner />
-      {geners?.map((e) => {
-        const { id, name } = e;
-        return (
-          <>
-            <Row title={name} gener={id} />
-          </>
-        );
-      })}
+      <Row title={"Action"} gener={28} key={28} isLarge />
+      <Row title={"Animation"} gener={16} key={16} />
+      <Row title={"Science Fiction"} gener={878} key={878} />
+      <Row title={"Horror"} gener={27} key={27} />
+      <Row title={"Romance"} gener={10749} key={10749} />
+      <Row title={"Documentary"} gener={99} key={99} />
+      <Row title={"History"} gener={36} key={36} />
+      <Row title={"TV Movie"} gener={10770} key={10770} />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './row.css'
 
-function Row({ title, gener }) {
+function Row({ title, gener, isLarge }) {
   const [movies, setMovies] = useState([]);
 
   const API_KEY = "a958eb475e408eb09ba601ab514b527a";
@@ -20,10 +20,11 @@ function Row({ title, gener }) {
       <h2>{title}</h2>
       <div className="row_poster">
         {movies.map((movie) => {
-          const { poster_path, id } = movie;
+
+          const { poster_path, backdrop_path } = movie;
           return (
             <>
-              <img key={id} className='row_posters_img' src={`https://image.tmdb.org/t/p/original${poster_path}`} alt="" />
+              <img key={movie.id} className={`row_posters_img ${isLarge && `row_poster_img_isLarge`}`} src={`https://image.tmdb.org/t/p/original${isLarge ? poster_path : backdrop_path}`} alt="" />
             </>
           )
         })}
