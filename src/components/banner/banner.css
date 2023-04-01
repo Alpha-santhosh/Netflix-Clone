@@ -1,7 +1,7 @@
 .banner {
-  height: 75vh;
+  height: 480px;
   object-fit: contain;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -10,7 +10,7 @@
 }
 
 .banner_movie_data {
-  padding-left: 25px;
+  padding-left: 3%;
   width: 30%;
   z-index: 10;
 }
@@ -34,6 +34,7 @@
   border-radius: 3px;
   letter-spacing: 1px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .banner_overview {

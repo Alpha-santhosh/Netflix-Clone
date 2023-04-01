@@ -3,7 +3,8 @@
 * {
   margin: 0;
   scroll-behavior: smooth;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,11 +13,12 @@ body {
   overflow-x: hidden;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   background-color: transparent;
-  width: 5px;
+  width: 10px;
 }
 
-::-webkit-scrollbar-thumb{
-  background: #E50914;
+::-webkit-scrollbar-thumb {
+  background: #e50914;
+  border-radius: 10px;
 }

@@ -1,0 +1,176 @@
+.login {
+  position: relative;
+}
+
+.login_img_container {
+  position: absolute;
+  min-height: 100vh;
+  z-index: -1;
+}
+
+.login_bf_img {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: contain;
+  opacity: 0.5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3%;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
+.login_form_container {
+  min-height: 100vh;
+  padding: 95px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  min-width: 450px;
+  max-width: 450px;
+  min-height: 660px;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 20px 0 30px;
+  padding: 60px 68px 40px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+label {
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+input {
+  width: 100%;
+  background: #333;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  padding: 16px 20px;
+  font-size: 16px;
+}
+
+.error_input {
+  border-bottom: 2px solid #e87c03;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input::placeholder {
+  color: #8c8c8c;
+  font-weight: 500;
+}
+
+p {
+  font-size: 13px;
+  color: #e87c03;
+  margin-bottom: -6px;
+  padding: 6px 3px;
+}
+
+.sign_in_btn {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 24px 0 12px;
+  padding: 16px;
+  background: #e50914;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.55);
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+}
+
+.login_form_help {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.check_label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0px;
+}
+
+.check_label,
+.check_box {
+  width: max-content;
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+a {
+  cursor: pointer;
+  padding-top: 2px;
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.login_form_others {
+  margin-top: 10px;
+}
+
+.login_sign_up {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.a_sign_up {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.login_para {
+  color: #8c8c8c;
+  font-size: 13px;
+  margin-top: 11px;
+}
+
+span {
+  color: #8c8c8c;
+  font-size: 13px;
+}
+
+.learn_more {
+  background-color: transparent;
+  border: none;
+  color: #0071eb;
+  cursor: pointer;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+}
