@@ -1,5 +1,7 @@
 # [Netflix-Clone](https://netflix-clone-brown-one.vercel.app/)
 
+![alt](./src/images/signIn.png)
+
 ## Project Overview -
 - The objective of the project is to develop a web application that simulates the Netflix streaming platform. The application should provide users with a similar user experience to the original Netflix app, with the ability to browse movies, TV shows, and other content, and create watchlists.
 
