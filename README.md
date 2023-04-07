@@ -23,4 +23,13 @@
 - GitHub : GitHub is a web-based platform that allows you to host and manage your Git repositories. It provides a range of features, such as collaboration tools, issue tracking, and pull requests, to help you work on your project with others.
 - Vercel: Vercel is a cloud platform that specializes in hosting and deploying serverless web applications. It provides a range of features and tools to help you build, deploy, and manage your web applications.
 
+## Installation and Usage -
+- Install Node.js and npm on your computer, if you haven't already done so.
+- Clone or download the project repository from GitHub.
+- Install the required dependencies by running `npm install` in the root directory of the project.
+- Get a Tmdb API key by signing up for an account at https://www.themoviedb.org/ and creating a new API key.
+- Create a `.env` file in the root directory of the project, and add your Tmdb API key as follows: `REACT_APP_TMDB_API_KEY=<your-api-key>`.
+- Start the development server by running npm start.
+- Open your web browser and navigate to http://localhost:3000 to view the app.
+
 ## Screenshots -
