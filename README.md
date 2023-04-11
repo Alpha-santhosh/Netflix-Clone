@@ -33,4 +33,4 @@
 - Open your web browser and navigate to http://localhost:3000 to view the app.
 
 ## Screenshots -
-![my image](profile-pic.png)
+![my image]()
