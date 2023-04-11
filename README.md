@@ -33,4 +33,23 @@
 - Open your web browser and navigate to http://localhost:3000 to view the app.
 
 ## Screenshots -
-![my image]()
+- Sign In Page
+
+![Sign In Page](https://raw.githubusercontent.com/Alpha-santhosh/Netflix-Clone/main/src/Img/netflix-signin.jpg)
+
+- Movies Page, Header and Banner Sections
+
+![Movies Page, Header and Banner Sections](https://raw.githubusercontent.com/Alpha-santhosh/Netflix-Clone/main/src/Img/netflix-banner-img.jpg)
+
+- Movie Posters Sections
+
+![Movie Posters Sections](https://raw.githubusercontent.com/Alpha-santhosh/Netflix-Clone/main/src/Img/netflix-poster-row.jpg)
+
+- Genres Sections
+
+![Genres Sections](https://raw.githubusercontent.com/Alpha-santhosh/Netflix-Clone/main/src/Img/netflix-gener.jpg)
+
+- Footer Sections
+
+![Footer Sections](https://raw.githubusercontent.com/Alpha-santhosh/Netflix-Clone/main/src/Img/netflix-footer.jpg)
+
